@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Welcome
-tagline: Wai's Way Technology Consulting
+tagline: Solution done right
 description: Wai's Way Technology -- APAC E-Commerce' solution provider
 ---
 ![](/assets/logo.png) 
