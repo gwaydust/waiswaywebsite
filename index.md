@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Welcome
-tagline: Solution done right
+tagline: IT Solution done right
 description: Wai's Way Technology -- APAC E-Commerce' solution provider
 ---
 ![](/assets/logo.png) 
-Focus on Mobile, Web, Devops Automation and RPA for e-Commerce/Retail clients.
+Mobile, Web, Devops Automation and RPA solutions for e-Commerce/Retail clients.
 
 E-Commerce/Retail clients:
 
@@ -21,4 +21,4 @@ Other clients:
 - [HKAA](https://www.hongkongairport.com/en/flights/hkg-myflight-mobile-app/)
 - [Hospital Authority](http://www.ha.org.hk/)
 
-If you are interested to find out more, my contact is at the bottom of the page.
+Interested to find out more? Our contact is at the bottom of the page.
