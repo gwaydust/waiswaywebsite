@@ -1,105 +1,65 @@
-# This is the default format.
-# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:year/:month/:day/:title
+# Site settings
+title: Way's Way
+email: waisway@protonmail.com
+url: https://gwaydust.github.io/waiswaywebsite/
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+keywords: "your keywords, separated by commas"
+skills: "Mobile and Web development. Devops Automation and RPA"
+meta_author: Way Wai's
 
-exclude: [".rvmrc", ".rbenv-version", "ReadMe.md", "Rakefile", "changelog.md", "License.md"]
-highlighter: rouge
+# Google webmaster tools
+google_verify:
 
-# Themes are encouraged to use these universal variables
-# so be sure to set them if your theme uses them.
-#
-title : Wai's Way Technology
-author :
-  name : Chi Wai Chan
-  email : waisway@protonmail.com
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Wai's Way Tech
+  location: Location
+  social: Around the Web
+  credits: Technology
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/524607/gway
+  - title: github
+    url: http://github.com/gwaydust
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: <b>Hong Kong Office</b> <a href="https://goo.gl/maps/qsnY2S2AxDEp2sWk6"><i class="fa fa-map-marker"></i></a>
+  - line: "Ng Fong Street, Rm. 8, 8/F, Lee King Industrial Building"
+  - line: San Po Kong, Kowloon, Hong Kong
+  - line:
+  - line: <b>US Office</b> <a href="https://goo.gl/maps/woQaTfrZMXzEP6gHA"><i class="fa fa-map-marker"></i></a>
+  - line: 11923 NE Sumner St, STE 887567
+  - line: Portland, Oregon, 97250, USA 
+  - line:
+  - line: <i class="fa fa-phone"></i> 1-916-931-6837 
 
 
-# NOTE: Replacing this next line with your own URL
-production_url : https://gwaydust.github.io/waiswaywebsite/
+# Credits content
+credits: 'This Website is powered by <a href="http://startbootstrap.com">Bootstrap</a> and <a href="https://jekyllrb.com/">Jekyll</a>.'
 
-# Tell Github to use the kramdown markdown interpreter
-# (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
+# Build settings
 markdown: kramdown
-
-# All Jekyll-Bootstrap specific configurations are namespaced into this hash
-#
-JB :
-  version : 0.3.0
-
-  # All links will be namespaced by BASE_PATH if defined.
-  # Links in your website should always be prefixed with {{BASE_PATH}}
-  # however this value will be dynamically changed depending on your deployment situation.
-  #
-  # CNAME (http://yourcustomdomain.com)
-  #   DO NOT SET BASE_PATH
-  #   (urls will be prefixed with "/" and work relatively)
-  #
-  # GitHub Pages (http://username.github.io)
-  #   DO NOT SET BASE_PATH
-  #   (urls will be prefixed with "/" and work relatively)
-  #
-  # GitHub Project Pages (http://username.github.io/project-name)
-  #
-  #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
-  #  REQUIRED! Set BASE_PATH to: http://username.github.io/project-name
-  #
-  # CAUTION:
-  #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
-  #   - Only the following values are falsy: ["", null, false]
-  #   - When setting BASE_PATH it must be a valid url.
-  #     This means always setting the protocol (http|https) or prefixing with "/"
-  #
-  # NOTE: Replace this next line with your own URL, likely with username.github.io
-  BASE_PATH : https://gwaydust.github.io/waiswaywebsite/
-
-  # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
-  # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
-  #
-  # Override this by defining an absolute path to assets here.
-  # ex:
-  #   http://s3.amazonaws.com/yoursite/themes/watermelon
-  #   /assets
-  #
-  # ASSET_PATH : https://kbroman.org/simple_site/assets/themes/twitter
-
-  # These paths are to the main pages Jekyll-Bootstrap ships with.
-  # Some JB helpers refer to these paths; change them here if needed.
-  #
-  archive_path: nil
-  categories_path : nil
-  tags_path : nil
-  atom_path : nil
-  rss_path : nil
-
-  # Settings for comments helper
-  # Set 'provider' to the comment provider you want to use.
-  # Set 'provider' to false to turn commenting off globally.
-  #
-  comments :
-    provider : false
-
-  # Settings for analytics helper
-  # Set 'provider' to the analytics provider you want to use.
-  # Set 'provider' to false to turn analytics off globally.
-  #
-  analytics :
-    provider : false
-
-  # Settings for sharing helper.
-  # Sharing is for things like tweet, plusone, like, reddit buttons etc.
-  # Set 'provider' to the sharing provider you want to use.
-  # Set 'provider' to false to turn sharing off globally.
-  #
-  sharing :
-    provider : false
-
-  # Settings for all other include helpers can be defined by creating
-  # a hash with key named for the given helper. ex:
-  #
-  #   pages_list :
-  #     provider : "custom"
-  #
-  # Setting any helper's provider to 'custom' will bypass the helper code
-  # and include your custom code. Your custom file must be defined at:
-  #   ./_includes/custom/[HELPER]
-  # where [HELPER] is the name of the helper you are overriding.
+permalink: pretty
