@@ -55,7 +55,7 @@ address:
   - line: Portland, Oregon, 97250, USA 
   - line:
   - line: <i class="fa fa-phone"></i> 1-916-931-6837 
-  - line: <i class="fa fa-envelope"></i> info@waisway.com
+  - line: <i class="fa fa-envelope"></i> <a href="mailto:info@waisway.com">info@waisway.com</a>
 
 
 # Credits content
