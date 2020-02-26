@@ -33,7 +33,7 @@ color:
 # Footer settings
 footer:
   copyright: Wai's Way Tech
-  location: Location
+  location: Locations
   social: Around the Web
   credits: Technology
 
@@ -55,6 +55,7 @@ address:
   - line: Portland, Oregon, 97250, USA 
   - line:
   - line: <i class="fa fa-phone"></i> 1-916-931-6837 
+  - line: <i class="fa fa-envelope"></i> info@waisway.com
 
 
 # Credits content
