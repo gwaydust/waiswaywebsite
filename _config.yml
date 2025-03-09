@@ -47,14 +47,15 @@ social:
 # Postal address (add as many lines as necessary)
 address:
   - line: <b>Hong Kong Office</b> <a href="https://goo.gl/maps/qsnY2S2AxDEp2sWk6"><i class="fa fa-map-marker"></i></a>
-  - line: "Ng Fong Street, Rm. 8, 8/F, Lee King Industrial Building"
-  - line: San Po Kong, Kowloon, Hong Kong
+  - line: "714 Prince Edward Rd E, Rm. 32, 17/F, Chaip King Industrial Building"
+  - line: San Po Kong, Kowloon, Hong Kong 
   - line:
   - line: <b>US Office</b> <a href="https://goo.gl/maps/woQaTfrZMXzEP6gHA"><i class="fa fa-map-marker"></i></a>
   - line: 11923 NE Sumner St, STE 887567
   - line: Portland, Oregon, 97250, USA 
   - line:
   - line: <i class="fa fa-phone"></i> 1-916-620-7205 
+  - line: <i class="fa fa-phone"></i> +852-9823-9016 
   - line: <i class="fa fa-envelope"></i> <a href="mailto:info@waisway.com">info@waisway.com</a>
 
 
