@@ -1,11 +1,11 @@
 # Site settings
-title: Wai's Way
+title: Wai Way
 email: info@waisway.com
 url: https://gwaydust.github.io/waiswaywebsite/
 description: "Solutions in Mobile and Web development, Devops Automation and RPA."
 keywords: "Mobile development, web development, Devops, Test Automation, RPA"
 skills: "Mobile and Web development. Devops Automation and RPA"
-meta_author: Wai's Way
+meta_author: Wai Way
 
 # Google webmaster tools
 google_verify:
